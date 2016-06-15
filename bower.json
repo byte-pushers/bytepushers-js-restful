@@ -1,0 +1,25 @@
+{
+  "name": "bytepushers-js-restful",
+  "homepage": "https://github.com/byte-pushers/bytepushers-js-restful",
+  "version": "0.0.1",
+  "description": "A Restful JavaScript APIs that handles transforming JSON data structure into domain driven JavaScript Models",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byte-pushers/bytepushers-js-restful.git"
+  },
+  "license": "MIT",
+  "author": "Tonté Pouncil <tonte.pouncil@bytepushers.software>",
+  "contributors": [
+    "Jared Ramirez <jaredramirez@me.com> ",
+    "Tonté Pouncil <pouncilt.developer@gmail.com> "
+  ],
+  "directories": {
+    "lib": "release"
+  },
+  "main": [
+    "release/bytepushers-js-restful.js"
+  ],
+  "dependencies": {
+    "bytepushers-js-core": "~0.0.57"
+  }
+}
