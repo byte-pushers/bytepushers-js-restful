@@ -20,6 +20,7 @@
     "release/bytepushers-js-restful.js"
   ],
   "dependencies": {
-    "bytepushers-js-core": "~0.0.57"
+    "bytepushers-js-core": "~0.0.57",
+    "bytepushers-js-messaging": "~0.0.1"
   }
 }
