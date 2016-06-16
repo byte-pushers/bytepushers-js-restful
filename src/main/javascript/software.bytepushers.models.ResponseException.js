@@ -35,7 +35,7 @@
          * @field
          * @type {String}
          */
-        var cause = (Object.isDefined(jsonResponseException) && Object.isDefined(jsonResponseException.cause)) ? jsonResponseException.cause : null,
+        var cause = (Object.isDefined(jsonResponseException) && Object.isString(jsonResponseException.cause)) ? jsonResponseException.cause : null,
             /**
              * Represent the stackTrace of the response exception from a Restful service call.
              *
@@ -43,7 +43,15 @@
              * @field
              * @type {BytePushers.models.ResponseExceptionStackTrace}
              */
-            stackTrace = [];
+            stackTrace = [],
+            /**
+             * Represents the exception code of the response exception for the Restful service call.
+             *
+             * @private
+             * @field
+             * @type {String}
+             */
+            code = (Object.isDefined(jsonResponseException) && Object.isString(jsonResponseException.code)) ? jsonResponseException.code : null;
 
         if (Object.isDefined(jsonResponseException) && Object.isDefined(jsonResponseException.stackTrace) && Array.isArray(jsonResponseException.stackTrace)) {
             jsonResponseException.stackTrace.forEach(function (jsonStackTrace) {
@@ -72,5 +80,16 @@
         this.getStackTrace = function () {
             return stackTrace;
         };
+
+        /**
+         * Convenience method that get the response exception code of the service call.
+         * 
+         * @public
+         * @method
+         * @returns {String} The response exception code of a service call.
+         */
+        this.getCode = function() {
+            return code;
+        }
     };
 }(BytePushers));
