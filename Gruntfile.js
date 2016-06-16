@@ -88,7 +88,7 @@ module.exports = function (grunt) {
                     beautify: true
                 },
                 files: {
-                    'dist/<%= pkg.name %>.js': ['build/src/main/javascript/software.bytepushers.*.js']
+                    'build/<%= pkg.name %>.js': ['build/src/main/javascript/software.bytepushers.*.js']
                 }
             }
         },

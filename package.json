@@ -4,7 +4,7 @@
   "version": "0.0.7",
   "repository": {
     "type": "git",
-    "url": "https://github.com/byte-pushers/bytepushers-js-restful"
+    "url": "https://github.com/byte-pushers/bytepushers-js-restful.git"
   },
   "license": "MIT",
   "author": "Tonté Pouncil <tonte.pouncil@bytepushers.software>",
