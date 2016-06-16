@@ -5,6 +5,7 @@
 /npm-debug.log
 /release
 /.idea
+.idea/*
 ### Eclipse template
 *.pydevproject
 .metadata
