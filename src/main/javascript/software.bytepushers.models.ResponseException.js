@@ -88,8 +88,8 @@
          * @method
          * @returns {String} The response exception code of a service call.
          */
-        this.getCode = function() {
+        this.getCode = function () {
             return code;
-        }
+        };
     };
 }(BytePushers));
