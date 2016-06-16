@@ -3,7 +3,6 @@
 /bower_components
 /node_modules
 /npm-debug.log
-/release
 /.idea
 .idea
 ### Eclipse template
