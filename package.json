@@ -1,7 +1,7 @@
 {
   "name": "bytepushers-js-restful",
   "description": "A Restful JavaScript APIs that handles transforming JSON data structure into domain driven JavaScript Models",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": {
     "type": "git",
     "url": "https://github.com/byte-pushers/bytepushers-js-restful.git"
